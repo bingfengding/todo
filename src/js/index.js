@@ -10,8 +10,8 @@ document.body.appendChild(root);
 
 
 new Vue({
-
-    render:(h)=>h(App)
-
+    render: function (h) {
+      return h(App)
+    }
 }).$mount(root);
 
