@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "ffff8596757d2c1bb0ee"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "af59727a0bd941c7d49c"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -10240,9 +10240,9 @@ document.body.appendChild(root);
 
 
 new __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */]({
-
-    render:(h)=>h(__WEBPACK_IMPORTED_MODULE_1__app_vue__["default"])
-
+    render: function (h) {
+      return h(__WEBPACK_IMPORTED_MODULE_1__app_vue__["default"])
+    }
 }).$mount(root);
 
 
